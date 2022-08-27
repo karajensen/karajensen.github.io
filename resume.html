@@ -1,0 +1,296 @@
+﻿<!DOCTYPE html>
+<html>
+<head> <!-- ===================== HEAD ===================== -->
+
+<!-- https://fancyapps.com/fancybox/3/docs/ -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<!-- https://fonts.google.com/specimen/Roboto?sidebar.open&selection.family=Roboto:wght@100;300;400;500;700;900 -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+<title>Kara Jensen | Resume</title>
+<meta name="Description" content="Software engineer with a strong combination of both programming and graphical skills.">
+
+<link rel="stylesheet" href="style.css">
+<link href="favicon.ico" rel="icon" />
+
+</head>
+<!-- ===================== HEAD ===================== -->
+<!-- ===================== BODY ===================== -->
+<body onload="$.fancybox.defaults.hideScrollbar = false;">
+
+<!---------------------- NAV BAR ------------------------>
+<header>
+<table width="800" align="center" style="background-color:#FAFAFA;"><tr><td>
+<table width="720" height="40" align="center" valign="center">
+    <tr>
+        <td width="28" align="left">
+            <img height="20" class="box-image" src="Images/box.png">
+        </td>
+        <td align="left">
+            <img height="18" src="Images/name.png">
+        </td>
+        <td width="300" align="right">
+            <ul>
+                <li><a id="header-option" href="index.html">Portfolio</a></li>
+                <li><a id="header-option" href="resume.html">Resume</a></li>
+                <li><a id="header-option" href="https://github.com/karajensen" target="_blank">GitHub</a></li>
+            </ul>
+        </td>
+    </tr>
+</table>
+</td></tr></table>
+</header>
+<!---------------------- NAV BAR ------------------------>
+
+<table width="800" align="center" style="background-color:#FAFAFA;"><tr><td>
+<table width="720" align="center"><tr><td>
+<div id="nav-bar-spacing"></div>
+
+<!---------------------- CONTENT ------------------------>
+
+<table align="center"><tr><td><p id="resume-name">KARA JENSEN</p></td></tr></table>
+<table align="center"><tr><td><p id="resume-email">mail@karajensen.com</p></td></tr></table>
+<table align="center"><tr><td><a id="resume-pdf" href="Kara Jensen - Software Engineer - Resume.pdf">DOWNLOAD RESUME</a></td></tr></table>
+
+<div id="resume-top-spacing"></div>
+<table align="center"><tr><td>
+
+    <p id="resume-header">Software Engineer</p><br />
+    <img src="Images/seperator_resume.png" width="720" height="5" /><br />
+    <div id="resume-header-spacing"></div>
+    <table><tr>
+        <td align="left">
+            <ul id="resume-ul-summary">
+              <li><span class="resume-li">
+              10 years of professional experience with a strong combination of programming and graphical skills.
+              </span></li>
+              <li><span class="resume-li">
+              Excellent organizational, research and problem solving abilities.
+              </span></li>
+              <li><span class="resume-li">
+              Have attention to detail and produce clean, efficient and well-documented code.
+              </span></li>
+              <li><span class="resume-li">
+              Very self-motivated and passionate about learning new solutions and technologies.
+              </span></li>
+            </ul>
+        </td>
+    </tr></table>
+    <div id="resume-content-spacing"></div>
+    
+    <p id="resume-header">Technical Experience</p><br />
+    <img src="Images/seperator_resume.png" width="720" height="5" /><br />
+    <div id="resume-header-spacing"></div>
+    <table><tr>
+        <td width="130" align="left">
+            <p id="resume-text-bold">
+                Languages:<br />
+                Libraries/Tools:<br />
+                Platforms:<br />
+                Portfolio:<br />
+            </p>
+        </td>
+        <td width="580" align="left">
+            <p id="resume-text">
+            C++, C++/CLI, C#, QML, Javascript, CMake, MEL, HLSL, GLSL, Python<br />
+            Qt, DirectX, OpenGL, Boost, Git, Perforce, SVN, JIRA, Conan, Unity, Autodesk Maya<br />
+            Windows, macOS, iOS<br />
+            <a href="http://www.karajensen.com">www.karajensen.com</a><br />
+            </p>
+        </td>   
+    </tr></table>
+    <div id="resume-content-spacing"></div>
+    
+    <p id="resume-header">Professional Experience</p><br />
+    <img src="Images/seperator_resume.png" width="720" height="5" /><br />
+    <div id="resume-header-spacing"></div>
+    <table><tr>
+        <td align="left">
+            
+            <p id="resume-text-bold">Senior Software Engineer, Pix4D, 2018+</p>
+            <div id="resume-small-spacing"></div>
+            <p id="resume-text">
+              Experience in C++, Qt, QML, Javascript, CMake, Git, Conan, JIRA.</br>
+              Development for Windows, macOS and iOS.</br>
+            </p>
+
+            <div id="resume-exp-spacing"></div>
+            
+            <p id="resume-text-bold">Software Engineer, Wargaming, 2016 - 2018</p>
+            <div id="resume-small-spacing"></div>
+            <p id="resume-text">
+              Experience in C++, Qt, QML, Javascript, Python, CMake, Git, Perforce, SVN, Plastic, JIRA.</br>
+              Involved in 2 teams of 3 to 9 developers and 2 artists using agile methodology.</br>
+              Participated in sprint planning, standups, code review, story breakdown and management.</br>
+              Provided technical support for the World of Warships Saint Petersburg studio tools team.</br>
+              Contributed to multiple projects across several Wargaming studios:</br>
+            </p>
+            <ul id="resume-ul">
+               <li><span class="resume-li">Development of a shared Qt/QML tools framework for Windows and macOS</span></li>
+               <li><span class="resume-li">Qt/QML tool package for artists for an unreleased online multiplayer game</span></li>
+               <li><span class="resume-li">R&D project for integrating fbx format into World of Tanks Maya plugin and pipeline</span></li>
+            </ul>
+
+            <div id="resume-exp-spacing"></div>
+            
+            <p id="resume-text-bold">Software Engineer, Immersive Technologies, 2012 - 2016</p>
+            <div id="resume-small-spacing"></div>
+            <p id="resume-text">
+              Experience in C++, C#, C++/CLI, Boost, DirectX, HLSL, Javascript, Git, JIRA, Unity.</br>
+              Contributed to 8 releases of commercial simulation software with over 50 simulated machines.</br>
+              Involved in 5 teams of 2 to 8 developers using agile methodology.</br>
+              Participated in the full software life-cycle including iteration planning, standups, code review and release.</br>
+              Designed and implemented features in a legacy code base:</br>
+            </p>
+            <ul id="resume-ul">
+                <li><span class="resume-li">Created client-integrated tools for both developers and artists</span></li>
+                <li><span class="resume-li">Integrated Open Asset Import Library and Unity with Oculus VR</span></li>
+                <li><span class="resume-li">Developed HTML Canvas and Javascript framework for machine automation training</span></li>
+            </ul>
+            
+        </td>
+    </tr></table>
+    <div id="resume-content-spacing"></div> 
+    
+    <p id="resume-header">Education</p><br />
+    <img src="Images/seperator_resume.png" width="720" height="5" /><br />
+    <div id="resume-header-spacing"></div>
+    <table><tr>
+        <td align="left">
+            
+            <p id="resume-text-bold">Advanced Diploma of Professional Game Development, Specialising in Programming</p>
+            <p id="resume-text-bold">Academy of Interactive Entertainment, 2015 - 2016</p>
+            <div id="resume-small-spacing"></div>
+            <p id="resume-text">
+              Experience in C++, C#, OpenGL, GLSL, Unity, PhysX, OpenCV and Photon Networking.</br>
+			</p>
+			<div id="resume-small-spacing"></div>
+			<p id="resume-text">
+                <a href="Documents/Kara Jensen - AIE Diploma Certificate.jpg" data-fancybox="Education" data-animation-effect="fade">Certificate</a>
+                &nbsp;|&nbsp;
+                <a href="Documents/Kara Jensen - AIE Diploma Transcript.jpg" data-fancybox="Education" data-animation-effect="fade">Transcript</a>
+            </p>
+
+            <div id="resume-exp-spacing"></div>
+            
+            <p id="resume-text-bold">Bachelor of Film and Digital Media, Majoring in Animation</p>
+            <p id="resume-text-bold">Deakin University, 2009 - 2011</p>
+            <div id="resume-small-spacing"></div>
+            <p id="resume-text">
+              Experience in C++, DirectX, HLSL, Python, Motion Capture, MEL, Autodesk Maya and Motion Builder.</br>
+              Graduated with distinction and a WES GPA credential evaluation of 3.96.</br>
+              Tutor for the Bachelor of Information Technology subject Mathematics and Physics for Games.</br>
+			</p>
+			<div id="resume-small-spacing"></div>
+			<p id="resume-text">
+                <a href="Documents/Kara Jensen - Deakin Certificate.jpg" data-fancybox="Education" data-animation-effect="fade">Certificate</a>
+                &nbsp;|&nbsp;
+                <a href="Documents/Kara Jensen - Deakin Academic Transcript.JPG" data-fancybox="Education" data-animation-effect="fade">Transcript</a>
+                &nbsp;|&nbsp;
+                <a href="Documents/Kara Jensen - Deakin WES GPA.jpg" data-fancybox="Education" data-animation-effect="fade">WES GPA</a>
+            </p>
+            
+        </td>
+    </tr></table>
+    <div id="resume-content-spacing"></div>
+
+    <p id="resume-header">Self Development</p><br />
+    <img src="Images/seperator_resume.png" width="720" height="5" /><br />
+    <div id="resume-header-spacing"></div>
+    
+    <table><tr>
+        <td width="65">
+            <p id="resume-text-bold">
+                2021<br />
+                2019<br />
+                2017<br />
+                2014<br />
+                2014<br />
+                2014<br />
+                2013<br />
+                2013<br />
+                2011<br />
+                2009<br />
+                2008
+            </p>
+        </td>
+        <td width="330">
+            <p id="resume-text">
+                Squish for Qt workshop<br />
+                Advanced QML KDAB workshop<br />
+                Scripting and Tool Dev for Maya workshop<br />
+                Microsoft Technical Associate examination<br />
+                Mobile applications in HTML5 short course<br />
+                SQL and databases short course<br />
+                Python and PyQt for Maya workshop<br />
+                Autodesk certified training for 3ds Max<br />
+                Academic certificate in Information Technology<br />
+                Autodesk Mudbox workshop<br />
+                Academic certificate in Multimedia
+            </p>
+        </td>
+        <td width="210">
+            <p id="resume-text">
+                <a href="Documents/Kara Jensen - Squish Certificate.jpg" data-fancybox="Development" data-animation-effect="fade">
+                certificate
+                </a><br />
+                <a href="Documents/Kara Jensen - Advanced QML Certificate.jpg" data-fancybox="Development" data-animation-effect="fade">
+                certificate
+                </a><br />
+                <a href="Documents/Kara Jensen - Maya Scripting Certificate.jpg" data-fancybox="Development" data-animation-effect="fade">
+                certificate
+                </a><br />
+                <a href="Documents/Kara Jensen - Microsoft Technology Associate.jpg" data-fancybox="Development" data-animation-effect="fade">
+                certificate
+                </a><br />
+                <a href="Documents/Kara Jensen - Mobile Applications Certificate.jpg" data-fancybox="Development" data-animation-effect="fade">
+                certificate
+                </a><br />
+                <a href="Documents/Kara Jensen - SQL Certificate.jpg" data-fancybox="Development" data-animation-effect="fade">
+                certificate
+                </a><br />
+                <a href="Documents/Kara Jensen - PyQt Certificate.jpg" data-fancybox="Development" data-animation-effect="fade">
+                certificate
+                </a><br />
+                <a href="Documents/Kara Jensen - Autodesk Certificate.jpg" data-fancybox="Development" data-animation-effect="fade">
+                certificate
+                </a><br />
+                <a href="Documents/Kara Jensen - AIE certificate IV programming certificate.jpg" data-fancybox="Development" data-animation-effect="fade">
+                certificate
+                </a><br />
+                <a href="Documents/Kara Jensen - Mudbox Certificate.jpg" data-fancybox="Development" data-animation-effect="fade">
+                certificate
+                </a><br />
+                <a href="Documents/Kara Jensen - Boxhill certificate IV game development.jpg" data-fancybox="Development" data-animation-effect="fade">
+                certificate
+                </a>
+            </p>
+        </td>
+    </tr></table>
+    <div id="resume-content-spacing"></div>
+
+    <div id="resume-content-spacing"></div>
+    <table align="right"><tr>
+        <td height="22">
+            <a href="http://vimeo.com/karajensen/videos" target="_blank"><img src="Images/vimeo.png" alt="" width="34" height="34"/></a>&nbsp; 
+            
+            <a href="https://www.linkedin.com/in/kara-jensen-3b769749" target="_blank"><img src="Images/linkedin.png" alt="" width="34" height="34" /></a>&nbsp; 
+            
+            <a href="https://github.com/karajensen" target="_blank"><img src="Images/git.png" alt="" width="34" height="34" /></a>
+        </td>
+    </tr></table>   
+    
+</td></tr></table>
+<div id="resume-bot-spacing"></div>
+  
+<!--------------------------- CONTENT --------------------------->
+
+</tr></td></table>
+</tr></td></table>
+
+</body>
+<!-- ===================== BODY ===================== -->
+</html>

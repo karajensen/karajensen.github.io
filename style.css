@@ -1,0 +1,275 @@
+ul, ol, dl {
+	font-family: 'Roboto', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	color: #111111;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	font-family: 'Roboto', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	color: #111111;	
+	padding: 0;
+	margin: 0;
+}
+
+td, tr, img  { 
+	line-height: 0px;
+	padding: 0px; 
+	margin: 0px; 
+	border: none; 
+}
+
+table { 
+	border-collapse: collapse; 
+}
+
+a:link {
+	font-family: 'Roboto', Verdana, Arial, Helvetica, sans-serif;
+	color: #039;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #039;
+	text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration: none;
+	color: #07B;
+}
+
+html, body {
+    height: 100%;
+	background: #EAEAEA;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;	
+}
+
+header {
+    background-color: #EAEAEA;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+	display: flex;
+	box-shadow: 0 0 6px 0 #BCBCBC;
+	z-index: 1;
+}
+
+header li {
+	display: inline;
+    margin-left: 30px;
+	text-decoration: none;
+}
+
+#header-option {
+	font-family: 'Roboto', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #666666;
+}
+#header-option:hover, #header-option:active {
+	color: #07B;
+}
+
+.box-image {
+	border-radius: 3px;
+	border: 1px solid #AFAFAF;
+}
+
+.rounded-image {
+	border-radius: 5px;
+	border: 2px solid #A0A0A0;
+	background-color: #A0A0A0;
+}
+.rounded-image:hover {
+	border: 2px solid #009BEF;
+}
+
+.link-image {
+	border-radius: 5px;
+	border: 2px solid #A0A0A0;
+	background-color: #A0A0A0;
+	width: 76px;
+	height: 42px;
+}
+.link-image:hover {
+	border: 2px solid #009BEF;
+}
+
+.rounded-video {
+	border-radius: 5px;
+	border: 2px solid #A0A0A0;
+	background-color: #A0A0A0;
+}
+.rounded-video:hover {
+	border: 2px solid #009BEF;
+}
+
+#nav-bar-spacing {
+	width: 720px;
+	height: 80px;
+}
+
+#portfolio-spacing {
+	width: 720px;
+	height: 40px;
+}
+
+#portfolio-header {
+	font-family: 'Roboto', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #369;
+	margin-left: 5px;
+}
+
+#portfolio-bar {
+	border-radius: 8px;
+	background: #E5E5E5;
+}
+
+#portfolio-entry {
+	border-radius: 12px;
+	background: #E5E5E5;
+}
+
+#portfolio-full-desc {
+	border-radius: 12px;
+	background: #CECECE;
+	height: 470px;
+}
+
+#portfolio-top-desc {
+	border-radius: 12px;
+	background: #CECECE;
+	height: 390px;
+}
+
+#portfolio-bot-desc {
+	border-radius: 12px;
+	background: #CECECE;
+	height: 70px;
+}
+
+#portfolio-desc-header {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 15px;
+}
+
+#portfolio-desc-points {
+	padding-top: 10px;
+	padding-right: 10px;
+	margin-left: 24px;
+	font-size: 12px;
+	line-height: 15px;	
+}
+
+#portfolio-desc-text {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+#portfolio-desc-link {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+#resume-name {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 34px;
+	color: #666666;
+}
+
+#resume-email {
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+#resume-pdf {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+#resume-header {
+	font-size: 15px;
+	line-height: 15px;
+	font-weight: 700;
+	color: #666666;
+}
+
+#resume-text {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+#resume-text-bold {
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 600;
+}
+
+#resume-top-spacing {
+	height: 40px;
+}
+
+#resume-bot-spacing {
+	height: 20px;
+}
+
+#resume-content-spacing {
+	height: 30px;
+}
+
+#resume-small-spacing {
+	height: 3px;
+}
+
+#resume-small-spacing-edu {
+	height: 6px;
+}
+
+#resume-header-spacing {
+	height: 10px;
+}
+
+#resume-exp-spacing {
+	height: 15px;
+}
+
+#resume-ul-summary {
+	margin-left: 12px;
+	font-size: 12px;
+}
+
+#resume-ul {
+	margin-left: 26px;
+	font-size: 12px;
+	padding-top: 4px;
+}
+
+.resume-li {
+	font-size: 14px;
+	line-height: 18px;	
+}
