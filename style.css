@@ -45,7 +45,7 @@ a:hover, a:active, a:focus {
 
 html, body {
     height: 100%;
-	background: #EAEAEA;
+	background: #EFEFEF;
     text-size-adjust: none;
     -webkit-text-size-adjust: none;
     -moz-text-size-adjust: none;
@@ -53,7 +53,7 @@ html, body {
 }
 
 header {
-    background-color: #EAEAEA;
+    background-color: #EFEFEF;
     position: fixed;
     top: 0;
     left: 0;
@@ -134,29 +134,29 @@ header li {
 
 #portfolio-bar {
 	border-radius: 8px;
-	background: #E5E5E5;
+	background: #EFEFEF;
 }
 
 #portfolio-entry {
 	border-radius: 12px;
-	background: #E5E5E5;
+	background: #EFEFEF;
 }
 
 #portfolio-full-desc {
 	border-radius: 12px;
-	background: #CECECE;
+	background: #EFEFEF;
 	height: 470px;
 }
 
 #portfolio-top-desc {
 	border-radius: 12px;
-	background: #CECECE;
+	background: #EFEFEF;
 	height: 390px;
 }
 
 #portfolio-bot-desc {
 	border-radius: 12px;
-	background: #CECECE;
+	background: #EFEFEF;
 	height: 70px;
 }
 
